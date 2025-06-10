@@ -1,0 +1,18 @@
+{
+    "global_encode_frame_rate":25,
+    "global_osd_enable":false,
+
+    "global_minio_server":"192.168.1.61:19901",
+    "global_minio_access_key":"minioadmin",
+    "global_minio_secret_key":"minioadmin",
+
+    "global_kafka_broker":"",
+    "global_kafka_topic":"",
+
+    "global_nvr_enable":false,
+    "global_nvr_ip":"192.168.1.167",
+    "global_nvr_port":8554,
+    "global_nvr_user":"admin",
+    "global_nvr_password":"admin",
+    "global_nvr_duration":5
+}

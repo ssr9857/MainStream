@@ -1,0 +1,70 @@
+{
+    "links": [
+        {
+            "device": {
+                "id": "12345678",
+                "name": "1690",
+                "createTime": "2024-05-29T09:45:26.882367311Z",
+                "status": "ONLINE",
+                "location": "1111",
+                "url": "rtsp://admin:admin@192.168.1.167/live/mainstream", 
+                "camera":{
+                    "user": "admin",
+                    "password": "seaway2019",
+                    "txProtocol": "rtsp"
+                }
+            },
+            "setting":{
+                "roi": "POLYGON((0.0 0.0,1.0 0.0,1.0 1.0,0.0 1.0,0.0 0.0))",
+                
+                "statisticsStartTime": "00:00:00",
+                "StatisticsEndTime": "23:59:59",
+
+                "PersonThreshold": 0.7,
+                "CarThreshold": 0.6,
+
+                "confThreshold": 0.4,
+                "nmsThreshold": 0.4,
+
+                "FrameInterval": 3,
+                "FrameShowLocal": false,
+
+                "AlarmSmooth": true,
+                "AlarmInterval": 2
+            }
+        },
+        {
+            "device": {
+                "id": "12345678",
+                "name": "1691",
+                "createTime": "2024-05-29T09:45:26.882367311Z",
+                "status": "ONLINE",
+                "location": "1111",
+                "url": "rtsp://admin:admin@192.168.1.167/live/mainstream",
+                "camera":{
+                    "user": "admin",
+                    "passward": "seaway2019",
+                    "txProtocol": "rtsp"
+                }
+            },
+            "setting":{
+                "roi": "POLYGON((0.0 0.0,1.0 0.0,1.0 1.0,0.0 1.0,0.0 0.0))",
+
+                "statisticsStartTime": "00:00:00",
+                "StatisticsEndTime": "23:59:59",
+
+                "PersonThreshold": 0.7,
+                "CarThreshold": 0.6,
+
+                "confThreshold": 0.4,
+                "nmsThreshold": 0.4,
+
+                "FrameInterval": 3,
+                "FrameShowLocal": false,
+
+                "AlarmSmooth": true,
+                "AlarmInterval": 2
+            }
+        }
+    ]
+}
